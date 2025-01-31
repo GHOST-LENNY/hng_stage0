@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
     const responseData = {
         email: "lennyddon@gmail.com",
         current_datetime: new Date(),
-        github_url: "https://github.com/yourusername/your-repo"
+        github_url: "https://github.com/GHOST-LENNY/hng_stage0.git"
     };
     res.status(200).json(responseData)
 });
